@@ -1,0 +1,44 @@
+site_name: DRANCY L'INSOUMISE
+site_url: https://drancyinsoumise.org
+theme: 
+  name: material  
+  palette:
+    primary: red
+    accent: red 
+  logo: assets/images/favicon.png
+  favicon: assets/images/favicon.png
+  icon: assets/images/logo.svg
+  features:
+    - navigation.footer
+  
+nav:
+  - Accueil: index.md
+  - À propos: 
+      - a-propos.md
+      - Notre histoire: a-propos/histoire.md
+      - Notre équipe: a-propos/equipe.md
+      - Nos valeurs: a-propos/valeurs.md
+  - Événements: evenements.md
+  - Contact: contact.md
+
+ 
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/votrecompte
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/votrecompte
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/votrecompte
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/votrecompte
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/DrancyInsoumise
+
+  footer:
+copyright: "© 2025 Drancy l'Insoumise. Tous droits réservés."
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
