@@ -1,10 +1,11 @@
 site_name: DRANCY L'INSOUMISE
 site_url: https://specs7.github.io/Drancy-Insoumise/
-theme: 
-  name: material  
+theme:
+  name: material
   palette:
-    primary: red
-    accent: red 
+    scheme: default
+    primary: pink
+    accent: pink
   logo: assets/images/favicon.png
   favicon: assets/images/favicon.png
   icon: assets/images/logo.svg
@@ -14,11 +15,14 @@ theme:
 nav:
   - Accueil: index.md
   - À propos: 
-      - a-propos.md
+      - A propos: a-propos.md
       - Notre histoire: a-propos/histoire.md
       - Notre équipe: a-propos/equipe.md
       - Nos valeurs: a-propos/valeurs.md
-  - Événements: evenements.md
+  - Événements: evenements.md 
+  - Notre Politique culturelle et artistique émancipatrice: notrePolitiqueCulturelle.md
+  - Financer notre ambition pour Drancy: financer.md
+  - Comment penser par soi même ?: commentpenser.md
   - Contact: contact.md
 
  
