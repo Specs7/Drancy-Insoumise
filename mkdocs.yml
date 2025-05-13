@@ -14,6 +14,7 @@ theme:
   
 nav:
   - Accueil: index.md
+  - Questionnaire: questionnaire.md
   - À propos: 
       - A propos: a-propos.md
       - Notre histoire: a-propos/histoire.md
