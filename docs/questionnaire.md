@@ -7,7 +7,6 @@ Partagez votre vision pour Drancy et aidez-nous à construire une ville plus jus
 <form id="questionnaire-form" action="https://formspree.io/f/mblopyro/" method="POST">
     <input type="hidden" name="_replyto" value="formspree.sulk574@passmail.net">
 
-</form>
   <h1>Consultation citoyenne : Ensemble, transformons Drancy !</h1>
   <p class="intro">Votre avis compte pour construire une ville plus juste, écologique et solidaire. Merci de prendre quelques minutes pour partager votre vision de Drancy.</p>
   
@@ -421,4 +420,5 @@ Partagez votre vision pour Drancy et aidez-nous à construire une ville plus jus
       width: 100%;
     }
   }
+ 
 </style>
